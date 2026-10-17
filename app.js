@@ -1,4 +1,4 @@
-const state = { characters: [], query: "", rarity: "all", ascending: true };
+const state = { characters: [], query: "", rarity: "all", path: "all", ascending: true };
 
 const searchInput = document.querySelector("#searchInput");
 const rows = document.querySelector("#characterRows");
@@ -6,6 +6,7 @@ const count = document.querySelector("#resultCount");
 const statusText = document.querySelector("#statusText");
 const emptyState = document.querySelector("#emptyState");
 const sortButton = document.querySelector("#sortButton");
+const pathFilter = document.querySelector("#pathFilter");
 const filterButtons = [...document.querySelectorAll(".filter")];
 
 function normalized(value) {
@@ -16,7 +17,8 @@ function visibleCharacters() {
   const query = normalized(state.query);
   return state.characters
     .filter((character) => state.rarity === "all" || String(character.rarity) === state.rarity)
-    .filter((character) => !query || [character.id, character.english, character.chinese].some((value) => normalized(value).includes(query)))
+    .filter((character) => state.path === "all" || character.path === state.path)
+    .filter((character) => !query || [character.id, character.english, character.chinese, character.path].some((value) => normalized(value).includes(query)))
     .sort((a, b) => state.ascending ? Number(a.id) - Number(b.id) : Number(b.id) - Number(a.id));
 }
 
@@ -28,6 +30,7 @@ function render() {
       ["id", character.id],
       ["en", character.english],
       ["zh", character.chinese],
+      ["path", character.path],
       ["stars", "★".repeat(character.rarity)],
     ];
     cells.forEach(([className, value]) => {
@@ -55,6 +58,7 @@ filterButtons.forEach((button) => button.addEventListener("click", () => {
   filterButtons.forEach((item) => item.classList.toggle("active", item === button));
   render();
 }));
+pathFilter.addEventListener("change", (event) => { state.path = event.target.value; render(); });
 document.addEventListener("keydown", (event) => {
   if ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === "k") {
     event.preventDefault(); searchInput.focus();
@@ -66,5 +70,16 @@ document.addEventListener("keydown", (event) => {
 
 fetch("characters.json")
   .then((response) => { if (!response.ok) throw new Error("角色資料載入失敗"); return response.json(); })
-  .then((characters) => { state.characters = characters; render(); })
+  .then((characters) => {
+    state.characters = characters;
+    const pathOrder = ["毀滅", "巡獵", "智識", "同諧", "虛無", "存護", "豐饒", "記憶", "歡愉"];
+    const availablePaths = new Set(characters.map((character) => character.path));
+    pathFilter.append(...pathOrder.filter((path) => availablePaths.has(path)).map((path) => {
+      const option = document.createElement("option");
+      option.value = path;
+      option.textContent = path;
+      return option;
+    }));
+    render();
+  })
   .catch((error) => { count.textContent = "無法載入"; statusText.textContent = error.message; });

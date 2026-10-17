@@ -18,7 +18,7 @@
     <section class="controls" aria-label="查詢工具">
       <label class="search">
         <span aria-hidden="true">⌕</span>
-        <input id="searchInput" type="search" placeholder="例如：1502、Yao Guang、爻光" autocomplete="off">
+        <input id="searchInput" type="search" placeholder="例如：1502、Yao Guang、爻光、歡愉" autocomplete="off">
         <kbd>Ctrl K</kbd>
       </label>
 
@@ -28,7 +28,15 @@
           <button class="filter" type="button" data-rarity="5">5 星</button>
           <button class="filter" type="button" data-rarity="4">4 星</button>
         </div>
-        <button id="sortButton" class="sort" type="button" aria-label="切換 ID 排序">ID 由小到大 ↓</button>
+        <div class="toolbar-actions">
+          <label class="path-filter">
+            <span>命途</span>
+            <select id="pathFilter" aria-label="命途篩選">
+              <option value="all">全部命途</option>
+            </select>
+          </label>
+          <button id="sortButton" class="sort" type="button" aria-label="切換 ID 排序">ID 由小到大 ↓</button>
+        </div>
       </div>
     </section>
 
@@ -41,7 +49,7 @@
       <div class="table-wrap">
         <table>
           <thead>
-            <tr><th>ID</th><th>English</th><th>繁體中文</th><th>星級</th></tr>
+            <tr><th>ID</th><th>English</th><th>繁體中文</th><th>命途</th><th>星級</th></tr>
           </thead>
           <tbody id="characterRows"></tbody>
         </table>
