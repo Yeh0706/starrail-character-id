@@ -34,7 +34,10 @@ body::before {
 }
 
 .shell { width: min(1080px, calc(100% - 32px)); margin: 0 auto; padding: 68px 0 32px; }
-.hero { margin-bottom: 30px; }
+.hero { position: relative; margin-bottom: 30px; }
+.language-switch { position: absolute; top: 0; right: 0; display: flex; gap: 4px; padding: 4px; border: 1px solid var(--line); border-radius: 10px; background: rgba(13,17,27,.72); }
+.language-option { min-height: 30px; padding: 0 10px; border: 0; border-radius: 7px; cursor: pointer; }
+.language-option.active { color: #0b1019; background: var(--gold); }
 .eyebrow { margin: 0 0 9px; color: var(--gold); font-size: .74rem; font-weight: 800; letter-spacing: .22em; }
 h1 { margin: 0; font-size: clamp(2rem, 6vw, 4.1rem); line-height: 1; letter-spacing: -.045em; }
 .lede { margin: 16px 0 0; color: var(--muted); font-size: 1rem; }
@@ -108,6 +111,8 @@ footer a { color: var(--muted); }
 
 @media (max-width: 620px) {
   .shell { width: min(100% - 20px, 1080px); padding-top: 38px; }
+  .hero { padding-top: 48px; }
+  .language-switch { left: 0; right: auto; }
   .toolbar { align-items: stretch; flex-direction: column; }
   .toolbar-actions { display: grid; grid-template-columns: 1fr 1fr; }
   .filters { display: grid; grid-template-columns: repeat(3, 1fr); }
