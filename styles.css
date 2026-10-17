@@ -70,7 +70,20 @@ button { cursor: pointer; }
 button:hover, button:focus-visible, select:focus-visible { color: var(--text); border-color: rgba(131,200,255,.55); outline: none; }
 .filter.active { color: #0b1019; border-color: var(--gold); background: var(--gold); }
 .path-filter { display: flex; align-items: center; gap: 8px; min-height: 38px; padding-left: 12px; border: 1px solid var(--line); border-radius: 9px; color: var(--muted); background: var(--panel-2); font-size: .78rem; }
-.path-filter select { height: 36px; padding: 0 28px 0 4px; border: 0; background: transparent; cursor: pointer; }
+.path-filter select {
+  min-width: 88px;
+  height: 36px;
+  padding: 0 28px 0 6px;
+  border: 0;
+  color: var(--text);
+  background: transparent;
+  color-scheme: dark;
+  cursor: pointer;
+}
+.path-filter select option {
+  color: var(--text);
+  background: #151b29;
+}
 
 .results { border-top: 0; border-radius: 0 0 18px 18px; overflow: hidden; }
 .summary { display: flex; gap: 8px; align-items: baseline; padding: 18px 20px; border-bottom: 1px solid var(--line); }
