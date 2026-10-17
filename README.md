@@ -1,5 +1,7 @@
 # StarRail Character ID
 
+## [開啟網站 / Open Website](https://yeh0706.github.io/starrail-character-id/)
+
 可搜尋的《崩壞：星穹鐵道》角色 ID、中英文名稱與星級對照表。
 
 ## 功能
