@@ -1,0 +1,590 @@
+[
+  {
+    "id": "1001",
+    "english": "March 7th",
+    "chinese": "三月七",
+    "rarity": 4
+  },
+  {
+    "id": "1002",
+    "english": "Dan Heng",
+    "chinese": "丹恆",
+    "rarity": 4
+  },
+  {
+    "id": "1003",
+    "english": "Himeko",
+    "chinese": "姬子",
+    "rarity": 5
+  },
+  {
+    "id": "1004",
+    "english": "Welt",
+    "chinese": "瓦爾特",
+    "rarity": 5
+  },
+  {
+    "id": "1005",
+    "english": "Kafka",
+    "chinese": "卡芙卡",
+    "rarity": 5
+  },
+  {
+    "id": "1006",
+    "english": "Silver Wolf",
+    "chinese": "銀狼",
+    "rarity": 5
+  },
+  {
+    "id": "1008",
+    "english": "Arlan",
+    "chinese": "阿蘭",
+    "rarity": 4
+  },
+  {
+    "id": "1009",
+    "english": "Asta",
+    "chinese": "艾絲妲",
+    "rarity": 4
+  },
+  {
+    "id": "1013",
+    "english": "Herta",
+    "chinese": "黑塔",
+    "rarity": 4
+  },
+  {
+    "id": "1014",
+    "english": "Saber",
+    "chinese": "Saber",
+    "rarity": 5
+  },
+  {
+    "id": "1015",
+    "english": "Archer",
+    "chinese": "Archer",
+    "rarity": 5
+  },
+  {
+    "id": "1101",
+    "english": "Bronya",
+    "chinese": "布洛妮婭",
+    "rarity": 5
+  },
+  {
+    "id": "1102",
+    "english": "Seele",
+    "chinese": "希兒",
+    "rarity": 5
+  },
+  {
+    "id": "1103",
+    "english": "Serval",
+    "chinese": "希露瓦",
+    "rarity": 4
+  },
+  {
+    "id": "1104",
+    "english": "Gepard",
+    "chinese": "傑帕德",
+    "rarity": 5
+  },
+  {
+    "id": "1105",
+    "english": "Natasha",
+    "chinese": "娜塔莎",
+    "rarity": 4
+  },
+  {
+    "id": "1106",
+    "english": "Pela",
+    "chinese": "佩拉",
+    "rarity": 4
+  },
+  {
+    "id": "1107",
+    "english": "Clara",
+    "chinese": "克拉拉",
+    "rarity": 5
+  },
+  {
+    "id": "1108",
+    "english": "Sampo",
+    "chinese": "桑博",
+    "rarity": 4
+  },
+  {
+    "id": "1109",
+    "english": "Hook",
+    "chinese": "虎克",
+    "rarity": 4
+  },
+  {
+    "id": "1110",
+    "english": "Lynx",
+    "chinese": "玲可",
+    "rarity": 4
+  },
+  {
+    "id": "1111",
+    "english": "Luka",
+    "chinese": "盧卡",
+    "rarity": 4
+  },
+  {
+    "id": "1112",
+    "english": "Topaz & Numby",
+    "chinese": "托帕&帳帳",
+    "rarity": 5
+  },
+  {
+    "id": "1201",
+    "english": "Qingque",
+    "chinese": "青雀",
+    "rarity": 4
+  },
+  {
+    "id": "1202",
+    "english": "Tingyun",
+    "chinese": "停雲",
+    "rarity": 4
+  },
+  {
+    "id": "1203",
+    "english": "Luocha",
+    "chinese": "羅剎",
+    "rarity": 5
+  },
+  {
+    "id": "1204",
+    "english": "Jing Yuan",
+    "chinese": "景元",
+    "rarity": 5
+  },
+  {
+    "id": "1205",
+    "english": "Blade",
+    "chinese": "刃",
+    "rarity": 5
+  },
+  {
+    "id": "1206",
+    "english": "Sushang",
+    "chinese": "素裳",
+    "rarity": 4
+  },
+  {
+    "id": "1207",
+    "english": "Yukong",
+    "chinese": "馭空",
+    "rarity": 4
+  },
+  {
+    "id": "1208",
+    "english": "Fu Xuan",
+    "chinese": "符玄",
+    "rarity": 5
+  },
+  {
+    "id": "1209",
+    "english": "Yanqing",
+    "chinese": "彥卿",
+    "rarity": 5
+  },
+  {
+    "id": "1210",
+    "english": "Guinaifen",
+    "chinese": "桂乃芬",
+    "rarity": 4
+  },
+  {
+    "id": "1211",
+    "english": "Bailu",
+    "chinese": "白露",
+    "rarity": 5
+  },
+  {
+    "id": "1212",
+    "english": "Jingliu",
+    "chinese": "鏡流",
+    "rarity": 5
+  },
+  {
+    "id": "1213",
+    "english": "Dan Heng • Imbibitor Lunae",
+    "chinese": "丹恆•飲月",
+    "rarity": 5
+  },
+  {
+    "id": "1214",
+    "english": "Xueyi",
+    "chinese": "雪衣",
+    "rarity": 4
+  },
+  {
+    "id": "1215",
+    "english": "Hanya",
+    "chinese": "寒鴉",
+    "rarity": 4
+  },
+  {
+    "id": "1217",
+    "english": "Huohuo",
+    "chinese": "藿藿",
+    "rarity": 5
+  },
+  {
+    "id": "1218",
+    "english": "Jiaoqiu",
+    "chinese": "椒丘",
+    "rarity": 5
+  },
+  {
+    "id": "1220",
+    "english": "Feixiao",
+    "chinese": "飛霄",
+    "rarity": 5
+  },
+  {
+    "id": "1221",
+    "english": "Yunli",
+    "chinese": "雲璃",
+    "rarity": 5
+  },
+  {
+    "id": "1222",
+    "english": "Lingsha",
+    "chinese": "靈砂",
+    "rarity": 5
+  },
+  {
+    "id": "1223",
+    "english": "Moze",
+    "chinese": "貊澤",
+    "rarity": 4
+  },
+  {
+    "id": "1224",
+    "english": "March 7th",
+    "chinese": "三月七",
+    "rarity": 4
+  },
+  {
+    "id": "1225",
+    "english": "Fugue",
+    "chinese": "忘歸人",
+    "rarity": 5
+  },
+  {
+    "id": "1301",
+    "english": "Gallagher",
+    "chinese": "加拉赫",
+    "rarity": 4
+  },
+  {
+    "id": "1302",
+    "english": "Argenti",
+    "chinese": "銀枝",
+    "rarity": 5
+  },
+  {
+    "id": "1303",
+    "english": "Ruan Mei",
+    "chinese": "阮•梅",
+    "rarity": 5
+  },
+  {
+    "id": "1304",
+    "english": "Aventurine",
+    "chinese": "砂金",
+    "rarity": 5
+  },
+  {
+    "id": "1305",
+    "english": "Dr. Ratio",
+    "chinese": "真理醫生",
+    "rarity": 5
+  },
+  {
+    "id": "1306",
+    "english": "Sparkle",
+    "chinese": "花火",
+    "rarity": 5
+  },
+  {
+    "id": "1307",
+    "english": "Black Swan",
+    "chinese": "黑天鵝",
+    "rarity": 5
+  },
+  {
+    "id": "1308",
+    "english": "Acheron",
+    "chinese": "黃泉",
+    "rarity": 5
+  },
+  {
+    "id": "1309",
+    "english": "Robin",
+    "chinese": "知更鳥",
+    "rarity": 5
+  },
+  {
+    "id": "1310",
+    "english": "Firefly",
+    "chinese": "流螢",
+    "rarity": 5
+  },
+  {
+    "id": "1312",
+    "english": "Misha",
+    "chinese": "米沙",
+    "rarity": 4
+  },
+  {
+    "id": "1313",
+    "english": "Sunday",
+    "chinese": "星期日",
+    "rarity": 5
+  },
+  {
+    "id": "1314",
+    "english": "Jade",
+    "chinese": "翡翠",
+    "rarity": 5
+  },
+  {
+    "id": "1315",
+    "english": "Boothill",
+    "chinese": "波提歐",
+    "rarity": 5
+  },
+  {
+    "id": "1317",
+    "english": "Rappa",
+    "chinese": "亂破",
+    "rarity": 5
+  },
+  {
+    "id": "1321",
+    "english": "The Dahlia",
+    "chinese": "大理花",
+    "rarity": 5
+  },
+  {
+    "id": "1401",
+    "english": "The Herta",
+    "chinese": "大黑塔",
+    "rarity": 5
+  },
+  {
+    "id": "1402",
+    "english": "Aglaea",
+    "chinese": "阿格萊雅",
+    "rarity": 5
+  },
+  {
+    "id": "1403",
+    "english": "Tribbie",
+    "chinese": "緹寶",
+    "rarity": 5
+  },
+  {
+    "id": "1404",
+    "english": "Mydei",
+    "chinese": "萬敵",
+    "rarity": 5
+  },
+  {
+    "id": "1405",
+    "english": "Anaxa",
+    "chinese": "那刻夏",
+    "rarity": 5
+  },
+  {
+    "id": "1406",
+    "english": "Cipher",
+    "chinese": "賽飛兒",
+    "rarity": 5
+  },
+  {
+    "id": "1407",
+    "english": "Castorice",
+    "chinese": "遐蝶",
+    "rarity": 5
+  },
+  {
+    "id": "1408",
+    "english": "Phainon",
+    "chinese": "白厄",
+    "rarity": 5
+  },
+  {
+    "id": "1409",
+    "english": "Hyacine",
+    "chinese": "風堇",
+    "rarity": 5
+  },
+  {
+    "id": "1410",
+    "english": "Hysilens",
+    "chinese": "海瑟音",
+    "rarity": 5
+  },
+  {
+    "id": "1412",
+    "english": "Cerydra",
+    "chinese": "刻律德菈",
+    "rarity": 5
+  },
+  {
+    "id": "1413",
+    "english": "Evernight",
+    "chinese": "長夜月",
+    "rarity": 5
+  },
+  {
+    "id": "1414",
+    "english": "Dan Heng • Permansor Terrae",
+    "chinese": "丹恆•騰荒",
+    "rarity": 5
+  },
+  {
+    "id": "1415",
+    "english": "Cyrene",
+    "chinese": "昔漣",
+    "rarity": 5
+  },
+  {
+    "id": "1501",
+    "english": "Sparxie",
+    "chinese": "火花",
+    "rarity": 5
+  },
+  {
+    "id": "1502",
+    "english": "Yao Guang",
+    "chinese": "爻光",
+    "rarity": 5
+  },
+  {
+    "id": "1503",
+    "english": "Pearl",
+    "chinese": "真珠",
+    "rarity": 5
+  },
+  {
+    "id": "1504",
+    "english": "Ashveil",
+    "chinese": "不死途",
+    "rarity": 5
+  },
+  {
+    "id": "1505",
+    "english": "Evanescia",
+    "chinese": "緋英",
+    "rarity": 5
+  },
+  {
+    "id": "1506",
+    "english": "Silver Wolf LV.999",
+    "chinese": "銀狼LV.999",
+    "rarity": 5
+  },
+  {
+    "id": "1507",
+    "english": "Mortenax Blade",
+    "chinese": "千冶•刃",
+    "rarity": 5
+  },
+  {
+    "id": "1508",
+    "english": "Rin Tohsaka",
+    "chinese": "遠坂凜",
+    "rarity": 5
+  },
+  {
+    "id": "1509",
+    "english": "Gilgamesh",
+    "chinese": "吉爾伽美什",
+    "rarity": 5
+  },
+  {
+    "id": "1510",
+    "english": "Himeko • Nova",
+    "chinese": "姬子•啟行",
+    "rarity": 5
+  },
+  {
+    "id": "1512",
+    "english": "Robin • Summeretto",
+    "chinese": "知更鳥•晴歌",
+    "rarity": 5
+  },
+  {
+    "id": "1513",
+    "english": "Aventurine • Waveflair",
+    "chinese": "砂金•戲浪",
+    "rarity": 5
+  },
+  {
+    "id": "8001",
+    "english": "Trailblazer (Male, Destruction)",
+    "chinese": "開拓者（男・毀滅）",
+    "rarity": 5
+  },
+  {
+    "id": "8002",
+    "english": "Trailblazer (Female, Destruction)",
+    "chinese": "開拓者（女・毀滅）",
+    "rarity": 5
+  },
+  {
+    "id": "8003",
+    "english": "Trailblazer (Male, Preservation)",
+    "chinese": "開拓者（男・存護）",
+    "rarity": 5
+  },
+  {
+    "id": "8004",
+    "english": "Trailblazer (Female, Preservation)",
+    "chinese": "開拓者（女・存護）",
+    "rarity": 5
+  },
+  {
+    "id": "8005",
+    "english": "Trailblazer (Male, Harmony)",
+    "chinese": "開拓者（男・同諧）",
+    "rarity": 5
+  },
+  {
+    "id": "8006",
+    "english": "Trailblazer (Female, Harmony)",
+    "chinese": "開拓者（女・同諧）",
+    "rarity": 5
+  },
+  {
+    "id": "8007",
+    "english": "Trailblazer (Male, Remembrance)",
+    "chinese": "開拓者（男・記憶）",
+    "rarity": 5
+  },
+  {
+    "id": "8008",
+    "english": "Trailblazer (Female, Remembrance)",
+    "chinese": "開拓者（女・記憶）",
+    "rarity": 5
+  },
+  {
+    "id": "8009",
+    "english": "Trailblazer (Male, Elation)",
+    "chinese": "開拓者（男・歡愉）",
+    "rarity": 5
+  },
+  {
+    "id": "8010",
+    "english": "Trailblazer (Female, Elation)",
+    "chinese": "開拓者（女・歡愉）",
+    "rarity": 5
+  }
+]

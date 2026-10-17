@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="《崩壞：星穹鐵道》角色 ID、中英文名稱與星級查詢表。">
+  <title>StarRail Character ID</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="hero">
+      <p class="eyebrow">HONKAI: STAR RAIL</p>
+      <h1>角色 ID 查詢</h1>
+      <p class="lede">搜尋角色 ID、English name 或繁體中文名稱。</p>
+    </header>
+
+    <section class="controls" aria-label="查詢工具">
+      <label class="search">
+        <span aria-hidden="true">⌕</span>
+        <input id="searchInput" type="search" placeholder="例如：1502、Yao Guang、爻光" autocomplete="off">
+        <kbd>Ctrl K</kbd>
+      </label>
+
+      <div class="toolbar">
+        <div class="filters" aria-label="星級篩選">
+          <button class="filter active" type="button" data-rarity="all">全部</button>
+          <button class="filter" type="button" data-rarity="5">5 星</button>
+          <button class="filter" type="button" data-rarity="4">4 星</button>
+        </div>
+        <button id="sortButton" class="sort" type="button" aria-label="切換 ID 排序">ID 由小到大 ↓</button>
+      </div>
+    </section>
+
+    <section class="results" aria-live="polite">
+      <div class="summary">
+        <strong id="resultCount">載入中…</strong>
+        <span id="statusText">角色資料</span>
+      </div>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>ID</th><th>English</th><th>繁體中文</th><th>星級</th></tr>
+          </thead>
+          <tbody id="characterRows"></tbody>
+        </table>
+        <div id="emptyState" class="empty" hidden>
+          <strong>找不到符合的角色</strong>
+          <span>請更換 ID 或名稱關鍵字。</span>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <span>資料來源：StarRailRes</span>
+      <a href="https://github.com/Yeh0706/starrail-character-id" rel="noreferrer">GitHub</a>
+    </footer>
+  </main>
+  <script src="app.js" defer></script>
+</body>
+</html>
