@@ -5,18 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="《崩壞：星穹鐵道》角色 ID、中英文名稱與星級查詢表。">
   <title>StarRail Character ID</title>
-  <link rel="stylesheet" href="styles.css?v=4">
+  <link rel="stylesheet" href="styles.css?v=14">
 </head>
 <body>
   <main class="shell">
     <header class="hero">
       <div class="language-switch" aria-label="Language">
-        <button class="language-option active" type="button" data-lang="zh-Hant">繁中</button>
+        <button class="language-option active" type="button" data-lang="zh-Hant">中文</button>
         <button class="language-option" type="button" data-lang="en">English</button>
       </div>
       <p class="eyebrow">HONKAI: STAR RAIL</p>
       <h1 data-i18n="title">角色 ID 查詢</h1>
-      <p class="lede" data-i18n="lede">搜尋角色 ID、English name、繁體中文名稱或命途。</p>
+      <p class="lede" data-i18n="lede">搜尋角色 ID、English name、中文名稱或命途。</p>
     </header>
 
     <section class="controls" aria-label="查詢工具">
@@ -33,12 +33,12 @@
           <button class="filter" type="button" data-rarity="4" data-i18n="fourStars">4 星</button>
         </div>
         <div class="toolbar-actions">
-          <label class="path-filter">
+          <div class="path-filter">
             <span data-i18n="pathLabel">命途</span>
             <select id="pathFilter" aria-label="命途篩選">
               <option value="all" data-i18n="allPaths">全部命途</option>
             </select>
-          </label>
+          </div>
           <button id="sortButton" class="sort" type="button" aria-label="切換 ID 排序">ID 由小到大 ↓</button>
         </div>
       </div>
@@ -52,8 +52,11 @@
 
       <div class="table-wrap">
         <table>
+          <colgroup>
+            <col class="col-id"><col class="col-en"><col class="col-zh"><col class="col-path"><col class="col-rarity">
+          </colgroup>
           <thead>
-            <tr><th>ID</th><th>English</th><th data-i18n="traditionalChinese">繁體中文</th><th data-i18n="pathLabel">命途</th><th data-i18n="rarity">星級</th></tr>
+            <tr><th>ID</th><th>English</th><th data-i18n="traditionalChinese">中文</th><th data-i18n="pathLabel">命途</th><th data-i18n="rarity">星級</th></tr>
           </thead>
           <tbody id="characterRows"></tbody>
         </table>
@@ -69,6 +72,6 @@
       <a href="https://github.com/Yeh0706/starrail-character-id" rel="noreferrer">GitHub</a>
     </footer>
   </main>
-  <script src="app.js?v=4" defer></script>
+  <script src="app.js?v=15" defer></script>
 </body>
 </html>
