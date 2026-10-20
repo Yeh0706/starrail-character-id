@@ -134,8 +134,8 @@ function render() {
     const row = document.createElement("tr");
     const cells = [
       ["id", character.id],
-      ["en", character.english],
       ["zh", character.chinese],
+      ["en", character.english],
       ["path", labelPath(character.path)],
       ["stars", "★".repeat(character.rarity)],
     ];

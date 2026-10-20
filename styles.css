@@ -107,8 +107,8 @@ button:hover, button:focus-visible, select:focus-visible { color: var(--text); b
 .table-wrap { overflow-x: auto; }
 table { width: 100%; min-width: 900px; table-layout: fixed; border-collapse: collapse; }
 .col-id { width: 12%; }
-.col-en { width: 31%; }
-.col-zh { width: 24%; }
+.col-zh { width: 26%; }
+.col-en { width: 29%; }
 .col-path { width: 19%; }
 .col-rarity { width: 14%; }
 th, td { padding: 15px 24px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: middle; }
